@@ -4,9 +4,8 @@ import styled from "styled-components";
 const Cards = styled.div`
 	width: 50%;
 	margin: 1.5rem auto;
-	background-image:url('https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fstartswithabang%2Ffiles%2F2017%2F10%2FTiny_bit_of_U.jpg');
+	background-image: url("https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80");
 	display: flex;
-	border: 4px green;
 	justify-content: space-around;
 
 	ul {
@@ -19,8 +18,8 @@ const Cards = styled.div`
 	}
 	p {
 		color: white;
-		font-size: 1.5rem;
-		font-weight: bold;
+		font-size: 1.25rem;
+		
 	}
 `;
 
@@ -44,8 +43,8 @@ const CardMaker = ({ char }) => {
 					<p>Birth Year: {char.birth_year}</p>
 					<p>Gender: {char.gender}</p>
 					<p>Hair Color: {char.hair_color}</p>
-                    <p>Eye Color: {char.eye_color}</p>
-                    <p>Height: {char.height}</p>
+					<p>Eye Color: {char.eye_color}</p>
+					<p>Height: {char.height}</p>
 				</li>
 			</ul>
 		</Cards>
