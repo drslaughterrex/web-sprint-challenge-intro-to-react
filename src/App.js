@@ -19,12 +19,12 @@ const App = () => {
 			.then((res) => {
 				setChar(res.data);
 			})
-			.catch((err) => console.log('Lord Vader, there was an error.', err));
+			.catch((err) => console.log("Lord Vader, there was an error.", err));
 	}, []);
 
 	return (
 		<div className="App">
-			<h1 className="Header">Characters</h1>
+			<h1 className="Header">Prominent Characters of Star Wars</h1>
 			<div className="container">
 				<Characters charName={char} />
 			</div>
