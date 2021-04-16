@@ -44,7 +44,7 @@ props are a Component's configuration.
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
 
- It is a general concept about behaviours of functions. A function is said to have side effect if it trys to modify anything outside its body. You can sync using the useEffect hook.
+ It is a general concept about behaviours of functions. A function is said to have side effect if it tries to modify anything outside its body. You can sync using the useEffect hook.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
