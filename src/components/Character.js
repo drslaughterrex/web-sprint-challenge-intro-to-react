@@ -13,7 +13,7 @@ const Cards = styled.div`
 	}
 	h2 {
 		color: green;
-		font-size: 2rem;
+		font-size: 1.8rem;
 		font-weight: bolder;
 	}
 	p {
