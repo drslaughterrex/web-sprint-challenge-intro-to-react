@@ -40,11 +40,11 @@ const CardMaker = ({ char }) => {
 			<ul>
 				<li>
 					<h2>Character Name: {char.name}</h2>
-					<p>Birth Year: {char.birth_year}</p>
 					<p>Gender: {char.gender}</p>
-					<p>Hair Color: {char.hair_color}</p>
-					<p>Eye Color: {char.eye_color}</p>
 					<p>Height: {char.height}</p>
+					<p>Birth Year: {char.birth_year}</p>
+					<p>Eye Color: {char.eye_color}</p>
+					<p>Hair Color: {char.hair_color}</p>
 				</li>
 			</ul>
 		</Cards>
